@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Portuguese");
+
+	bool p;
+	bool q;
+	bool r;
+	p = true;
+	q = false;
+	r = true;
+	
+	if (((q && r) || (!p && r)) && r)
+		printf("Verdadeiro !!!\n");
+	else
+		printf("Falso !!!\n");
+	
+	printf("Resultado da expressão: %d\n", ((q && r) || (!p && r)) && r);
+
+}
