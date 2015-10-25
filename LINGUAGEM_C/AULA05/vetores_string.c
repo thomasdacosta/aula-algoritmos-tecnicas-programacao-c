@@ -6,10 +6,10 @@ int main()
 	setlocale(LC_ALL, "Portuguese");
 	
 	char nome[255] = "João";
-	int i;
+	char cidade[255];
 	
-	printf("%s", nome);	
+	printf("Olá %s !!! Qual a sua cidade de nascimento? ", nome);
+	scanf("%255[^\n]", cidade);
 	
-	
-	
+	printf("%s você nasceu em %s", nome, cidade);	
 }
