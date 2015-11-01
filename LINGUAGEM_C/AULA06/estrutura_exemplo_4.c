@@ -11,10 +11,10 @@ struct demonstracao
 int main()
 {
 	printf("Digite o valor da string:");
-	gets(demo.string);
+	scanf("%100[^\n]", demo.string);
 	
 	printf("Digite os valores:");
-	scanf("%c", &demo.caracter);
+	scanf(" %c", &demo.caracter);
 	scanf("%d", &demo.valor_inteiro);
 	scanf("%lf", &demo.valor_double);
 	
