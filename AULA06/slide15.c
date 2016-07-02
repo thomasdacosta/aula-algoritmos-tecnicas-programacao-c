@@ -11,7 +11,7 @@ void imprimir_aluno(char nome[], int ra);
 int main()
 {
 	printf("Digite o nome do aluno:");
-	scanf("%100[^\n]", aluno_tecnologia.nome);
+	fgets(aluno_tecnologia.nome, sizeof(aluno_tecnologia.nome), stdin);
 	
 	printf("Digite o RA do aluno:");	
 	scanf("%d", &aluno_tecnologia.ra);

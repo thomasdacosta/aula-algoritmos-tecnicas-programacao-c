@@ -9,7 +9,7 @@ int main()
 	char cidade[255];
 	
 	printf("Olá %s !!! Qual a sua cidade de nascimento? ", nome);
-	scanf("%255[^\n]", cidade);
+	fgets(cidade, sizeof(cidade), stdin);
 	
 	printf("%s você nasceu em %s", nome, cidade);	
 }

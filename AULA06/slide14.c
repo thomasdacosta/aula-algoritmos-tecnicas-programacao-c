@@ -11,7 +11,7 @@ struct demonstracao
 int main()
 {
 	printf("Digite o valor da string:");
-	scanf("%100[^\n]", demo.string);
+	fgets(demo.string, sizeof(demo.string), stdin);
 	
 	printf("Digite os valores:");
 	scanf(" %c", &demo.caracter);
