@@ -1,4 +1,4 @@
-**Algoritmos e Técnicas de Programação - Anhanguera**
+**Algoritmos e Técnicas de Programação**
 ======================================
 
 Código-fonte do curso de Algoritmos e Técnicas de Programação. Desenvolvido no Dev-C++, utilizando a linguagem de programação C.
